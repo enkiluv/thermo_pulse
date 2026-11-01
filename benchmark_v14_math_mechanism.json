@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 4 (mod 9) and x ≡ 12 (mod 13). Answer integer.",
+    "answer": "103"
+  },
+  {
+    "id": 2,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A 1200-liter tank contains pure dye. Replace 25% of the mixed contents with water, mix thoroughly, then replace another 30% with water. How many liters of dye remain? Answer integer.",
+    "answer": "630"
+  },
+  {
+    "id": 3,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Choose 5 people from 21. Among them 3 specified people are mutually exclusive: at most one of these 3 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "17748"
+  },
+  {
+    "id": 4,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Solve x+y=88 and 3x-7y=-126. Find 4x+3y. Answer integer.",
+    "answer": "313"
+  },
+  {
+    "id": 5,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "An integer sequence begins at 7. The increment from term 1 to term 2 is 3, and each later increment grows by 3 compared with the preceding increment. What is term 13? Answer integer.",
+    "answer": "241"
+  },
+  {
+    "id": 6,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Find the sum of all integers x satisfying 82 ≤ x ≤ 122 and x ≡ 5 (mod 8). Answer integer.",
+    "answer": "505"
+  },
+  {
+    "id": 7,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Among integers from 1 through 217 inclusive, how many are divisible by 3 OR by 9? Answer integer.",
+    "answer": "72"
+  },
+  {
+    "id": 8,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A three-stage machine has 8 independent initial choices, 7 intermediate choices per initial choice, and 5 endings per intermediate choice. Exactly 6 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "70"
+  },
+  {
+    "id": 9,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "An order contains 7 identical items at 40 credits each. A 10% discount applies to the entire item subtotal, then a fixed shipping charge of 10 credits is added. What is the total cost? Answer integer.",
+    "answer": "262"
+  },
+  {
+    "id": 10,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "An arithmetic progression starts at 12, increases by 2, and has 21 terms. Omit terms numbered [5, 6, 7] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "606"
+  },
+  {
+    "id": 11,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 2 (mod 9) and x ≡ 0 (mod 11). Answer integer.",
+    "answer": "11"
+  },
+  {
+    "id": 12,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A 1200-liter tank contains pure dye. Replace 20% of the mixed contents with water, mix thoroughly, then replace another 30% with water. How many liters of dye remain? Answer integer.",
+    "answer": "672"
+  },
+  {
+    "id": 13,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Choose 5 people from 17. Among them 4 specified people are mutually exclusive: at most one of these 4 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "4147"
+  },
+  {
+    "id": 14,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Solve x+y=66 and 3x-2y=3. Find 2x+5y. Answer integer.",
+    "answer": "249"
+  },
+  {
+    "id": 15,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "An integer sequence begins at 5. The increment from term 1 to term 2 is 3, and each later increment grows by 4 compared with the preceding increment. What is term 8? Answer integer.",
+    "answer": "110"
+  },
+  {
+    "id": 16,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Find the sum of all integers x satisfying 87 ≤ x ≤ 166 and x ≡ 3 (mod 14). Answer integer.",
+    "answer": "732"
+  },
+  {
+    "id": 17,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Among integers from 1 through 222 inclusive, how many are divisible by 5 OR by 11? Answer integer.",
+    "answer": "60"
+  },
+  {
+    "id": 18,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A three-stage machine has 6 independent initial choices, 7 intermediate choices per initial choice, and 5 endings per intermediate choice. Exactly 5 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "35"
+  },
+  {
+    "id": 19,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "An order contains 9 identical items at 60 credits each. A 10% discount applies to the entire item subtotal, then a fixed shipping charge of 18 credits is added. What is the total cost? Answer integer.",
+    "answer": "504"
+  },
+  {
+    "id": 20,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "An arithmetic progression starts at 10, increases by 4, and has 19 terms. Omit terms numbered [11, 12, 18] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "692"
+  },
+  {
+    "id": 21,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 12 (mod 13) and x ≡ 1 (mod 9). Answer integer.",
+    "answer": "64"
+  },
+  {
+    "id": 22,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A 400-liter tank contains pure dye. Replace 25% of the mixed contents with water, mix thoroughly, then replace another 25% with water. How many liters of dye remain? Answer integer.",
+    "answer": "225"
+  },
+  {
+    "id": 23,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Choose 4 people from 12. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "210"
+  },
+  {
+    "id": 24,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Solve x+y=46 and 6x-6y=-84. Find 2x+6y. Answer integer.",
+    "answer": "212"
+  },
+  {
+    "id": 25,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "An integer sequence begins at 12. The increment from term 1 to term 2 is 6, and each later increment grows by 3 compared with the preceding increment. What is term 12? Answer integer.",
+    "answer": "243"
+  },
+  {
+    "id": 26,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Find the sum of all integers x satisfying 80 ≤ x ≤ 146 and x ≡ 3 (mod 10). Answer integer.",
+    "answer": "791"
+  },
+  {
+    "id": 27,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Among integers from 1 through 127 inclusive, how many are divisible by 5 OR by 7? Answer integer.",
+    "answer": "40"
+  },
+  {
+    "id": 28,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A three-stage machine has 4 independent initial choices, 3 intermediate choices per initial choice, and 4 endings per intermediate choice. Exactly 3 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "12"
+  },
+  {
+    "id": 29,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "An order contains 4 identical items at 120 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 29 credits is added. What is the total cost? Answer integer.",
+    "answer": "413"
+  },
+  {
+    "id": 30,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "An arithmetic progression starts at 10, increases by 9, and has 16 terms. Omit terms numbered [4, 12, 14] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "967"
+  },
+  {
+    "id": 31,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 6 (mod 11) and x ≡ 8 (mod 13). Answer integer.",
+    "answer": "138"
+  },
+  {
+    "id": 32,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A 800-liter tank contains pure dye. Replace 25% of the mixed contents with water, mix thoroughly, then replace another 20% with water. How many liters of dye remain? Answer integer.",
+    "answer": "480"
+  },
+  {
+    "id": 33,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Choose 5 people from 17. Among them 3 specified people are mutually exclusive: at most one of these 3 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "5005"
+  },
+  {
+    "id": 34,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Solve x+y=65 and 7x-5y=47. Find 5x+2y. Answer integer.",
+    "answer": "223"
+  },
+  {
+    "id": 35,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "An integer sequence begins at 15. The increment from term 1 to term 2 is 2, and each later increment grows by 2 compared with the preceding increment. What is term 10? Answer integer.",
+    "answer": "105"
+  },
+  {
+    "id": 36,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Find the sum of all integers x satisfying 90 ≤ x ≤ 152 and x ≡ 9 (mod 14). Answer integer.",
+    "answer": "605"
+  },
+  {
+    "id": 37,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Among integers from 1 through 200 inclusive, how many are divisible by 4 OR by 8? Answer integer.",
+    "answer": "50"
+  },
+  {
+    "id": 38,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A three-stage machine has 7 independent initial choices, 5 intermediate choices per initial choice, and 6 endings per intermediate choice. Exactly 4 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "90"
+  },
+  {
+    "id": 39,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "An order contains 4 identical items at 140 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 8 credits is added. What is the total cost? Answer integer.",
+    "answer": "456"
+  },
+  {
+    "id": 40,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "An arithmetic progression starts at 10, increases by 12, and has 16 terms. Omit terms numbered [4, 7, 10] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1354"
+  },
+  {
+    "id": 41,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 0 (mod 11) and x ≡ 10 (mod 13). Answer integer.",
+    "answer": "88"
+  },
+  {
+    "id": 42,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A 800-liter tank contains pure dye. Replace 20% of the mixed contents with water, mix thoroughly, then replace another 25% with water. How many liters of dye remain? Answer integer.",
+    "answer": "480"
+  },
+  {
+    "id": 43,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Choose 5 people from 16. Among them 3 specified people are mutually exclusive: at most one of these 3 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "3432"
+  },
+  {
+    "id": 44,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Solve x+y=80 and 4x-2y=140. Find 5x+5y. Answer integer.",
+    "answer": "400"
+  },
+  {
+    "id": 45,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "An integer sequence begins at 18. The increment from term 1 to term 2 is 4, and each later increment grows by 3 compared with the preceding increment. What is term 13? Answer integer.",
+    "answer": "264"
+  },
+  {
+    "id": 46,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Find the sum of all integers x satisfying 57 ≤ x ≤ 96 and x ≡ 4 (mod 9). Answer integer.",
+    "answer": "380"
+  },
+  {
+    "id": 47,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Among integers from 1 through 197 inclusive, how many are divisible by 4 OR by 8? Answer integer.",
+    "answer": "49"
+  },
+  {
+    "id": 48,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A three-stage machine has 6 independent initial choices, 4 intermediate choices per initial choice, and 6 endings per intermediate choice. Exactly 1 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "120"
+  },
+  {
+    "id": 49,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "An order contains 9 identical items at 140 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 13 credits is added. What is the total cost? Answer integer.",
+    "answer": "1021"
+  },
+  {
+    "id": 50,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "An arithmetic progression starts at 9, increases by 4, and has 20 terms. Omit terms numbered [10, 11, 12] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "793"
+  },
+  {
+    "id": 51,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 11 (mod 13) and x ≡ 13 (mod 17). Answer integer.",
+    "answer": "115"
+  },
+  {
+    "id": 52,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A 800-liter tank contains pure dye. Replace 25% of the mixed contents with water, mix thoroughly, then replace another 10% with water. How many liters of dye remain? Answer integer.",
+    "answer": "540"
+  },
+  {
+    "id": 53,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Choose 6 people from 14. Among them 4 specified people are mutually exclusive: at most one of these 4 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "1218"
+  },
+  {
+    "id": 54,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Solve x+y=61 and 5x-7y=125. Find 2x+3y. Answer integer.",
+    "answer": "137"
+  },
+  {
+    "id": 55,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "An integer sequence begins at 3. The increment from term 1 to term 2 is 2, and each later increment grows by 3 compared with the preceding increment. What is term 10? Answer integer.",
+    "answer": "129"
+  },
+  {
+    "id": 56,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Find the sum of all integers x satisfying 107 ≤ x ≤ 151 and x ≡ 0 (mod 12). Answer integer.",
+    "answer": "504"
+  },
+  {
+    "id": 57,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Among integers from 1 through 213 inclusive, how many are divisible by 6 OR by 8? Answer integer.",
+    "answer": "53"
+  },
+  {
+    "id": 58,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A three-stage machine has 7 independent initial choices, 3 intermediate choices per initial choice, and 3 endings per intermediate choice. Exactly 2 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "45"
+  },
+  {
+    "id": 59,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "An order contains 5 identical items at 40 credits each. A 25% discount applies to the entire item subtotal, then a fixed shipping charge of 21 credits is added. What is the total cost? Answer integer.",
+    "answer": "171"
+  },
+  {
+    "id": 60,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "An arithmetic progression starts at 9, increases by 5, and has 14 terms. Omit terms numbered [4, 6, 14] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "449"
+  },
+  {
+    "id": 61,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 3 (mod 9) and x ≡ 1 (mod 13). Answer integer.",
+    "answer": "66"
+  },
+  {
+    "id": 62,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A 1200-liter tank contains pure dye. Replace 10% of the mixed contents with water, mix thoroughly, then replace another 30% with water. How many liters of dye remain? Answer integer.",
+    "answer": "756"
+  },
+  {
+    "id": 63,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Choose 6 people from 15. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "1470"
+  },
+  {
+    "id": 64,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Solve x+y=47 and 2x-4y=-32. Find 3x+2y. Answer integer.",
+    "answer": "120"
+  },
+  {
+    "id": 65,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "An integer sequence begins at 15. The increment from term 1 to term 2 is 2, and each later increment grows by 5 compared with the preceding increment. What is term 10? Answer integer.",
+    "answer": "213"
+  },
+  {
+    "id": 66,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Find the sum of all integers x satisfying 94 ≤ x ≤ 140 and x ≡ 8 (mod 13). Answer integer.",
+    "answer": "474"
+  },
+  {
+    "id": 67,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Among integers from 1 through 123 inclusive, how many are divisible by 6 OR by 8? Answer integer.",
+    "answer": "30"
+  },
+  {
+    "id": 68,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A three-stage machine has 7 independent initial choices, 4 intermediate choices per initial choice, and 3 endings per intermediate choice. Exactly 3 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "48"
+  },
+  {
+    "id": 69,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "An order contains 6 identical items at 100 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 21 credits is added. What is the total cost? Answer integer.",
+    "answer": "501"
+  },
+  {
+    "id": 70,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "An arithmetic progression starts at 17, increases by 10, and has 21 terms. Omit terms numbered [5, 10, 21] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "2076"
+  },
+  {
+    "id": 71,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 2 (mod 17) and x ≡ 5 (mod 11). Answer integer.",
+    "answer": "104"
+  },
+  {
+    "id": 72,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A 800-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 20% with water. How many liters of dye remain? Answer integer.",
+    "answer": "448"
+  },
+  {
+    "id": 73,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Choose 4 people from 16. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "1155"
+  },
+  {
+    "id": 74,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Solve x+y=71 and 7x-7y=189. Find 3x+4y. Answer integer.",
+    "answer": "235"
+  },
+  {
+    "id": 75,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "An integer sequence begins at 6. The increment from term 1 to term 2 is 8, and each later increment grows by 5 compared with the preceding increment. What is term 12? Answer integer.",
+    "answer": "369"
+  },
+  {
+    "id": 76,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Find the sum of all integers x satisfying 70 ≤ x ≤ 129 and x ≡ 1 (mod 11). Answer integer.",
+    "answer": "500"
+  },
+  {
+    "id": 77,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Among integers from 1 through 162 inclusive, how many are divisible by 4 OR by 8? Answer integer.",
+    "answer": "40"
+  },
+  {
+    "id": 78,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A three-stage machine has 7 independent initial choices, 3 intermediate choices per initial choice, and 4 endings per intermediate choice. Exactly 2 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "60"
+  },
+  {
+    "id": 79,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "An order contains 9 identical items at 100 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 17 credits is added. What is the total cost? Answer integer.",
+    "answer": "737"
+  },
+  {
+    "id": 80,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "An arithmetic progression starts at 14, increases by 12, and has 20 terms. Omit terms numbered [1, 11, 14] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "2242"
+  },
+  {
+    "id": 81,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 7 (mod 9) and x ≡ 6 (mod 13). Answer integer.",
+    "answer": "97"
+  },
+  {
+    "id": 82,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A 400-liter tank contains pure dye. Replace 20% of the mixed contents with water, mix thoroughly, then replace another 25% with water. How many liters of dye remain? Answer integer.",
+    "answer": "240"
+  },
+  {
+    "id": 83,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Choose 6 people from 22. Among them 4 specified people are mutually exclusive: at most one of these 4 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "52836"
+  },
+  {
+    "id": 84,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Solve x+y=30 and 4x-7y=-78. Find 3x+6y. Answer integer.",
+    "answer": "144"
+  },
+  {
+    "id": 85,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "An integer sequence begins at 17. The increment from term 1 to term 2 is 3, and each later increment grows by 5 compared with the preceding increment. What is term 9? Answer integer.",
+    "answer": "181"
+  },
+  {
+    "id": 86,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Find the sum of all integers x satisfying 71 ≤ x ≤ 125 and x ≡ 0 (mod 8). Answer integer.",
+    "answer": "672"
+  },
+  {
+    "id": 87,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Among integers from 1 through 200 inclusive, how many are divisible by 6 OR by 11? Answer integer.",
+    "answer": "48"
+  },
+  {
+    "id": 88,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A three-stage machine has 6 independent initial choices, 5 intermediate choices per initial choice, and 3 endings per intermediate choice. Exactly 1 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "75"
+  },
+  {
+    "id": 89,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "An order contains 7 identical items at 60 credits each. A 10% discount applies to the entire item subtotal, then a fixed shipping charge of 9 credits is added. What is the total cost? Answer integer.",
+    "answer": "387"
+  },
+  {
+    "id": 90,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "An arithmetic progression starts at 19, increases by 6, and has 12 terms. Omit terms numbered [4, 10, 12] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "429"
+  },
+  {
+    "id": 91,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 0 (mod 7) and x ≡ 4 (mod 11). Answer integer.",
+    "answer": "70"
+  },
+  {
+    "id": 92,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A 1200-liter tank contains pure dye. Replace 20% of the mixed contents with water, mix thoroughly, then replace another 20% with water. How many liters of dye remain? Answer integer.",
+    "answer": "768"
+  },
+  {
+    "id": 93,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Choose 5 people from 20. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "9828"
+  },
+  {
+    "id": 94,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Solve x+y=70 and 6x-5y=189. Find 2x+6y. Answer integer.",
+    "answer": "224"
+  },
+  {
+    "id": 95,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "An integer sequence begins at 16. The increment from term 1 to term 2 is 8, and each later increment grows by 2 compared with the preceding increment. What is term 12? Answer integer.",
+    "answer": "214"
+  },
+  {
+    "id": 96,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Find the sum of all integers x satisfying 53 ≤ x ≤ 100 and x ≡ 12 (mod 14). Answer integer.",
+    "answer": "300"
+  },
+  {
+    "id": 97,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Among integers from 1 through 225 inclusive, how many are divisible by 3 OR by 7? Answer integer.",
+    "answer": "97"
+  },
+  {
+    "id": 98,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A three-stage machine has 5 independent initial choices, 7 intermediate choices per initial choice, and 2 endings per intermediate choice. Exactly 3 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "28"
+  },
+  {
+    "id": 99,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "An order contains 9 identical items at 60 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 17 credits is added. What is the total cost? Answer integer.",
+    "answer": "449"
+  },
+  {
+    "id": 100,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "An arithmetic progression starts at 8, increases by 12, and has 19 terms. Omit terms numbered [1, 5, 15] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1964"
+  },
+  {
+    "id": 101,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 2 (mod 11) and x ≡ 1 (mod 13). Answer integer.",
+    "answer": "79"
+  },
+  {
+    "id": 102,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A 800-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 10% with water. How many liters of dye remain? Answer integer.",
+    "answer": "504"
+  },
+  {
+    "id": 103,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Choose 6 people from 13. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "308"
+  },
+  {
+    "id": 104,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Solve x+y=63 and 7x-5y=-27. Find 2x+6y. Answer integer.",
+    "answer": "282"
+  },
+  {
+    "id": 105,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "An integer sequence begins at 3. The increment from term 1 to term 2 is 9, and each later increment grows by 4 compared with the preceding increment. What is term 7? Answer integer.",
+    "answer": "117"
+  },
+  {
+    "id": 106,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Find the sum of all integers x satisfying 105 ≤ x ≤ 144 and x ≡ 5 (mod 11). Answer integer.",
+    "answer": "378"
+  },
+  {
+    "id": 107,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Among integers from 1 through 186 inclusive, how many are divisible by 4 OR by 7? Answer integer.",
+    "answer": "66"
+  },
+  {
+    "id": 108,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A three-stage machine has 8 independent initial choices, 4 intermediate choices per initial choice, and 2 endings per intermediate choice. Exactly 7 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "8"
+  },
+  {
+    "id": 109,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "An order contains 9 identical items at 100 credits each. A 25% discount applies to the entire item subtotal, then a fixed shipping charge of 30 credits is added. What is the total cost? Answer integer.",
+    "answer": "705"
+  },
+  {
+    "id": 110,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "An arithmetic progression starts at 16, increases by 10, and has 21 terms. Omit terms numbered [13, 14, 18] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1968"
+  },
+  {
+    "id": 111,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 5 (mod 9) and x ≡ 12 (mod 17). Answer integer.",
+    "answer": "131"
+  },
+  {
+    "id": 112,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A 400-liter tank contains pure dye. Replace 25% of the mixed contents with water, mix thoroughly, then replace another 20% with water. How many liters of dye remain? Answer integer.",
+    "answer": "240"
+  },
+  {
+    "id": 113,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Choose 4 people from 20. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "3640"
+  },
+  {
+    "id": 114,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Solve x+y=81 and 3x-2y=78. Find 6x+5y. Answer integer.",
+    "answer": "453"
+  },
+  {
+    "id": 115,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "An integer sequence begins at 9. The increment from term 1 to term 2 is 4, and each later increment grows by 1 compared with the preceding increment. What is term 9? Answer integer.",
+    "answer": "69"
+  },
+  {
+    "id": 116,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Find the sum of all integers x satisfying 105 ≤ x ≤ 149 and x ≡ 0 (mod 6). Answer integer.",
+    "answer": "882"
+  },
+  {
+    "id": 117,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Among integers from 1 through 178 inclusive, how many are divisible by 3 OR by 8? Answer integer.",
+    "answer": "74"
+  },
+  {
+    "id": 118,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A three-stage machine has 5 independent initial choices, 5 intermediate choices per initial choice, and 5 endings per intermediate choice. Exactly 3 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "50"
+  },
+  {
+    "id": 119,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "An order contains 7 identical items at 60 credits each. A 25% discount applies to the entire item subtotal, then a fixed shipping charge of 24 credits is added. What is the total cost? Answer integer.",
+    "answer": "339"
+  },
+  {
+    "id": 120,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "An arithmetic progression starts at 18, increases by 9, and has 15 terms. Omit terms numbered [1, 4, 11] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1044"
+  },
+  {
+    "id": 121,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 4 (mod 13) and x ≡ 5 (mod 7). Answer integer.",
+    "answer": "82"
+  },
+  {
+    "id": 122,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A 400-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 25% with water. How many liters of dye remain? Answer integer.",
+    "answer": "210"
+  },
+  {
+    "id": 123,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Choose 5 people from 21. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "13468"
+  },
+  {
+    "id": 124,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Solve x+y=85 and 5x-3y=145. Find 4x+4y. Answer integer.",
+    "answer": "340"
+  },
+  {
+    "id": 125,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "An integer sequence begins at 11. The increment from term 1 to term 2 is 7, and each later increment grows by 4 compared with the preceding increment. What is term 9? Answer integer.",
+    "answer": "179"
+  },
+  {
+    "id": 126,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Find the sum of all integers x satisfying 94 ≤ x ≤ 172 and x ≡ 2 (mod 13). Answer integer.",
+    "answer": "831"
+  },
+  {
+    "id": 127,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Among integers from 1 through 112 inclusive, how many are divisible by 5 OR by 9? Answer integer.",
+    "answer": "32"
+  },
+  {
+    "id": 128,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A three-stage machine has 5 independent initial choices, 4 intermediate choices per initial choice, and 5 endings per intermediate choice. Exactly 3 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "40"
+  },
+  {
+    "id": 129,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "An order contains 9 identical items at 180 credits each. A 25% discount applies to the entire item subtotal, then a fixed shipping charge of 18 credits is added. What is the total cost? Answer integer.",
+    "answer": "1233"
+  },
+  {
+    "id": 130,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "An arithmetic progression starts at 7, increases by 4, and has 13 terms. Omit terms numbered [1, 5, 9] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "334"
+  },
+  {
+    "id": 131,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 6 (mod 17) and x ≡ 6 (mod 11). Answer integer.",
+    "answer": "6"
+  },
+  {
+    "id": 132,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A 800-liter tank contains pure dye. Replace 25% of the mixed contents with water, mix thoroughly, then replace another 30% with water. How many liters of dye remain? Answer integer.",
+    "answer": "420"
+  },
+  {
+    "id": 133,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Choose 6 people from 18. Among them 4 specified people are mutually exclusive: at most one of these 4 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "11011"
+  },
+  {
+    "id": 134,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Solve x+y=55 and 5x-6y=-77. Find 3x+6y. Answer integer.",
+    "answer": "261"
+  },
+  {
+    "id": 135,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "An integer sequence begins at 5. The increment from term 1 to term 2 is 9, and each later increment grows by 2 compared with the preceding increment. What is term 9? Answer integer.",
+    "answer": "133"
+  },
+  {
+    "id": 136,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Find the sum of all integers x satisfying 102 ≤ x ≤ 138 and x ≡ 10 (mod 12). Answer integer.",
+    "answer": "354"
+  },
+  {
+    "id": 137,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Among integers from 1 through 174 inclusive, how many are divisible by 6 OR by 11? Answer integer.",
+    "answer": "42"
+  },
+  {
+    "id": 138,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A three-stage machine has 6 independent initial choices, 5 intermediate choices per initial choice, and 4 endings per intermediate choice. Exactly 1 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "100"
+  },
+  {
+    "id": 139,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "An order contains 7 identical items at 120 credits each. A 25% discount applies to the entire item subtotal, then a fixed shipping charge of 13 credits is added. What is the total cost? Answer integer.",
+    "answer": "643"
+  },
+  {
+    "id": 140,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "An arithmetic progression starts at 7, increases by 8, and has 19 terms. Omit terms numbered [3, 6, 12] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1336"
+  },
+  {
+    "id": 141,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 9 (mod 11) and x ≡ 10 (mod 13). Answer integer.",
+    "answer": "75"
+  },
+  {
+    "id": 142,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A 800-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 30% with water. How many liters of dye remain? Answer integer.",
+    "answer": "392"
+  },
+  {
+    "id": 143,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Choose 6 people from 16. Among them 3 specified people are mutually exclusive: at most one of these 3 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "5577"
+  },
+  {
+    "id": 144,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Solve x+y=51 and 7x-7y=-203. Find 3x+6y. Answer integer.",
+    "answer": "273"
+  },
+  {
+    "id": 145,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "An integer sequence begins at 14. The increment from term 1 to term 2 is 2, and each later increment grows by 2 compared with the preceding increment. What is term 10? Answer integer.",
+    "answer": "104"
+  },
+  {
+    "id": 146,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Find the sum of all integers x satisfying 55 ≤ x ≤ 94 and x ≡ 2 (mod 9). Answer integer.",
+    "answer": "370"
+  },
+  {
+    "id": 147,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Among integers from 1 through 83 inclusive, how many are divisible by 4 OR by 8? Answer integer.",
+    "answer": "20"
+  },
+  {
+    "id": 148,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A three-stage machine has 6 independent initial choices, 5 intermediate choices per initial choice, and 6 endings per intermediate choice. Exactly 4 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "60"
+  },
+  {
+    "id": 149,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "An order contains 9 identical items at 180 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 16 credits is added. What is the total cost? Answer integer.",
+    "answer": "1312"
+  },
+  {
+    "id": 150,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "An arithmetic progression starts at 13, increases by 4, and has 19 terms. Omit terms numbered [3, 4, 16] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "812"
+  },
+  {
+    "id": 151,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 3 (mod 13) and x ≡ 7 (mod 11). Answer integer.",
+    "answer": "29"
+  },
+  {
+    "id": 152,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A 1200-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 10% with water. How many liters of dye remain? Answer integer.",
+    "answer": "756"
+  },
+  {
+    "id": 153,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Choose 4 people from 22. Among them 3 specified people are mutually exclusive: at most one of these 3 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "6783"
+  },
+  {
+    "id": 154,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Solve x+y=62 and 2x-6y=-148. Find 6x+2y. Answer integer.",
+    "answer": "236"
+  },
+  {
+    "id": 155,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "An integer sequence begins at 15. The increment from term 1 to term 2 is 7, and each later increment grows by 4 compared with the preceding increment. What is term 10? Answer integer.",
+    "answer": "222"
+  },
+  {
+    "id": 156,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Find the sum of all integers x satisfying 95 ≤ x ≤ 143 and x ≡ 4 (mod 6). Answer integer.",
+    "answer": "968"
+  },
+  {
+    "id": 157,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Among integers from 1 through 207 inclusive, how many are divisible by 4 OR by 11? Answer integer.",
+    "answer": "65"
+  },
+  {
+    "id": 158,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A three-stage machine has 4 independent initial choices, 5 intermediate choices per initial choice, and 6 endings per intermediate choice. Exactly 2 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "60"
+  },
+  {
+    "id": 159,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "An order contains 10 identical items at 100 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 17 credits is added. What is the total cost? Answer integer.",
+    "answer": "817"
+  },
+  {
+    "id": 160,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "An arithmetic progression starts at 19, increases by 10, and has 15 terms. Omit terms numbered [5, 7, 9] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1098"
+  },
+  {
+    "id": 161,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 0 (mod 13) and x ≡ 5 (mod 9). Answer integer.",
+    "answer": "104"
+  },
+  {
+    "id": 162,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A 400-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 30% with water. How many liters of dye remain? Answer integer.",
+    "answer": "196"
+  },
+  {
+    "id": 163,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Choose 6 people from 17. Among them 3 specified people are mutually exclusive: at most one of these 3 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "9009"
+  },
+  {
+    "id": 164,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Solve x+y=60 and 6x-3y=234. Find 5x+3y. Answer integer.",
+    "answer": "272"
+  },
+  {
+    "id": 165,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "An integer sequence begins at 7. The increment from term 1 to term 2 is 3, and each later increment grows by 3 compared with the preceding increment. What is term 7? Answer integer.",
+    "answer": "70"
+  },
+  {
+    "id": 166,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Find the sum of all integers x satisfying 71 ≤ x ≤ 135 and x ≡ 2 (mod 13). Answer integer.",
+    "answer": "530"
+  },
+  {
+    "id": 167,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Among integers from 1 through 137 inclusive, how many are divisible by 4 OR by 7? Answer integer.",
+    "answer": "49"
+  },
+  {
+    "id": 168,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A three-stage machine has 4 independent initial choices, 6 intermediate choices per initial choice, and 2 endings per intermediate choice. Exactly 1 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "36"
+  },
+  {
+    "id": 169,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "An order contains 6 identical items at 80 credits each. A 25% discount applies to the entire item subtotal, then a fixed shipping charge of 16 credits is added. What is the total cost? Answer integer.",
+    "answer": "376"
+  },
+  {
+    "id": 170,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "An arithmetic progression starts at 17, increases by 8, and has 22 terms. Omit terms numbered [6, 18, 22] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1827"
+  },
+  {
+    "id": 171,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 0 (mod 13) and x ≡ 9 (mod 11). Answer integer.",
+    "answer": "130"
+  },
+  {
+    "id": 172,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A 1200-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 25% with water. How many liters of dye remain? Answer integer.",
+    "answer": "630"
+  },
+  {
+    "id": 173,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Choose 6 people from 16. Among them 4 specified people are mutually exclusive: at most one of these 4 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "4092"
+  },
+  {
+    "id": 174,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Solve x+y=39 and 7x-7y=-133. Find 6x+4y. Answer integer.",
+    "answer": "176"
+  },
+  {
+    "id": 175,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "An integer sequence begins at 14. The increment from term 1 to term 2 is 8, and each later increment grows by 5 compared with the preceding increment. What is term 13? Answer integer.",
+    "answer": "440"
+  },
+  {
+    "id": 176,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Find the sum of all integers x satisfying 54 ≤ x ≤ 112 and x ≡ 2 (mod 11). Answer integer.",
+    "answer": "507"
+  },
+  {
+    "id": 177,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Among integers from 1 through 184 inclusive, how many are divisible by 4 OR by 9? Answer integer.",
+    "answer": "61"
+  },
+  {
+    "id": 178,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A three-stage machine has 8 independent initial choices, 6 intermediate choices per initial choice, and 6 endings per intermediate choice. Exactly 7 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "36"
+  },
+  {
+    "id": 179,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "An order contains 5 identical items at 160 credits each. A 25% discount applies to the entire item subtotal, then a fixed shipping charge of 23 credits is added. What is the total cost? Answer integer.",
+    "answer": "623"
+  },
+  {
+    "id": 180,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "An arithmetic progression starts at 6, increases by 4, and has 20 terms. Omit terms numbered [7, 10, 12] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "758"
+  },
+  {
+    "id": 181,
+    "family": "MATH_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 8 (mod 11) and x ≡ 3 (mod 7). Answer integer.",
+    "answer": "52"
+  },
+  {
+    "id": 182,
+    "family": "MATH_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A 400-liter tank contains pure dye. Replace 30% of the mixed contents with water, mix thoroughly, then replace another 20% with water. How many liters of dye remain? Answer integer.",
+    "answer": "224"
+  },
+  {
+    "id": 183,
+    "family": "MATH_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Choose 5 people from 16. Among them 5 specified people are mutually exclusive: at most one of these 5 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "2112"
+  },
+  {
+    "id": 184,
+    "family": "MATH_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Solve x+y=72 and 6x-5y=113. Find 5x+4y. Answer integer.",
+    "answer": "331"
+  },
+  {
+    "id": 185,
+    "family": "MATH_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "An integer sequence begins at 13. The increment from term 1 to term 2 is 9, and each later increment grows by 1 compared with the preceding increment. What is term 7? Answer integer.",
+    "answer": "82"
+  },
+  {
+    "id": 186,
+    "family": "MATH_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Find the sum of all integers x satisfying 61 ≤ x ≤ 130 and x ≡ 0 (mod 6). Answer integer.",
+    "answer": "1056"
+  },
+  {
+    "id": 187,
+    "family": "MATH_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Among integers from 1 through 213 inclusive, how many are divisible by 3 OR by 9? Answer integer.",
+    "answer": "71"
+  },
+  {
+    "id": 188,
+    "family": "MATH_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A three-stage machine has 4 independent initial choices, 5 intermediate choices per initial choice, and 6 endings per intermediate choice. Exactly 3 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "30"
+  },
+  {
+    "id": 189,
+    "family": "MATH_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "An order contains 9 identical items at 60 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 12 credits is added. What is the total cost? Answer integer.",
+    "answer": "444"
+  },
+  {
+    "id": 190,
+    "family": "MATH_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "An arithmetic progression starts at 7, increases by 2, and has 18 terms. Omit terms numbered [1, 7, 11] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "379"
+  },
+  {
+    "id": 191,
+    "family": "MATH_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Find the least nonnegative integer x satisfying x ≡ 2 (mod 7) and x ≡ 12 (mod 13). Answer integer.",
+    "answer": "51"
+  },
+  {
+    "id": 192,
+    "family": "MATH_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A 1200-liter tank contains pure dye. Replace 25% of the mixed contents with water, mix thoroughly, then replace another 20% with water. How many liters of dye remain? Answer integer.",
+    "answer": "720"
+  },
+  {
+    "id": 193,
+    "family": "MATH_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Choose 6 people from 18. Among them 3 specified people are mutually exclusive: at most one of these 3 may be chosen. How many committees are valid? Answer integer.",
+    "answer": "14014"
+  },
+  {
+    "id": 194,
+    "family": "MATH_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Solve x+y=77 and 7x-3y=199. Find 5x+3y. Answer integer.",
+    "answer": "317"
+  },
+  {
+    "id": 195,
+    "family": "MATH_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "An integer sequence begins at 3. The increment from term 1 to term 2 is 8, and each later increment grows by 2 compared with the preceding increment. What is term 12? Answer integer.",
+    "answer": "201"
+  },
+  {
+    "id": 196,
+    "family": "MATH_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Find the sum of all integers x satisfying 101 ≤ x ≤ 140 and x ≡ 3 (mod 7). Answer integer.",
+    "answer": "711"
+  },
+  {
+    "id": 197,
+    "family": "MATH_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Among integers from 1 through 110 inclusive, how many are divisible by 5 OR by 7? Answer integer.",
+    "answer": "34"
+  },
+  {
+    "id": 198,
+    "family": "MATH_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A three-stage machine has 7 independent initial choices, 3 intermediate choices per initial choice, and 2 endings per intermediate choice. Exactly 1 initial choices are disallowed. How many different complete procedures remain? Answer integer.",
+    "answer": "36"
+  },
+  {
+    "id": 199,
+    "family": "MATH_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "An order contains 6 identical items at 160 credits each. A 20% discount applies to the entire item subtotal, then a fixed shipping charge of 25 credits is added. What is the total cost? Answer integer.",
+    "answer": "793"
+  },
+  {
+    "id": 200,
+    "family": "MATH_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "An arithmetic progression starts at 14, increases by 7, and has 21 terms. Omit terms numbered [6, 10, 12] (1-indexed). What is the sum of the remaining terms? Answer integer.",
+    "answer": "1547"
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A binary signal begins at 0. Passing 11 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 2,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A=[4, 8, 10, 12, 15, 18, 19, 20, 26, 28, 30, 34, 38, 40]; B=[3, 6, 7, 8, 9, 10, 13, 20, 23, 25, 29, 30, 31, 36, 39]; C=[7, 9, 18, 22, 24, 25, 30, 32, 34, 37, 38, 40]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "3"
+  },
+  {
+    "id": 3,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Events form this linked timeline: A is 10 minutes before C; C is 9 minutes before B; B is 8 minutes before F; F is 5 minutes before E; E is 10 minutes before D; D is 11 minutes before G; G is 20 minutes before H. Which event is 4th chronologically? Answer one letter.",
+    "answer": "F"
+  },
+  {
+    "id": 4,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A layered graph has 4 distinct first choices, 7 distinct second choices per first choice and 5 distinct final choices per second choice. Exactly 1 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 5 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "84"
+  },
+  {
+    "id": 5,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Task completion times are [104, 60, 115, 27, 75, 96, 123, 80, 47] minutes. Exclude the shortest 5 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "115"
+  },
+  {
+    "id": 6,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A system opens iff ((108 mod 10) < 4) AND ((108 mod 7) is even OR 108 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 7,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A register starts at 31. Apply signed updates [2, 2, 8, -8, 6, -6, -1, 10, 5, 5, 3, 3, -2, 0, 1] in order, but skip updates numbered 2 through 15 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "33"
+  },
+  {
+    "id": 8,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Scores: [831, 620, 336, 418, 715, 443, 480, 707, 478, 585, 510]. Remove scores below 287, then remove the highest surviving score. What is the 1th highest among survivors? Answer integer.",
+    "answer": "715"
+  },
+  {
+    "id": 9,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "The sequence is [39, 5, 9, 17, 35, 11, 36, 12, 44, 24, 4, 2]. Retain only even entries; sort them in increasing order. What is the 1th retained value? Answer integer.",
+    "answer": "2"
+  },
+  {
+    "id": 10,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Binary state X=0, Y=0, Z=1. Apply in order: XOR 1, OR Y, XOR 1, AND (Z OR 0), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 11,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A binary signal begins at 0. Passing 13 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 12,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A=[1, 3, 7, 8, 16, 17, 19, 24, 26, 27, 31, 37, 38, 40]; B=[2, 3, 5, 12, 15, 20, 24, 28, 29, 32, 33, 34, 36, 38, 40]; C=[5, 9, 10, 16, 20, 22, 23, 25, 31, 32, 35, 38]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "3"
+  },
+  {
+    "id": 13,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Events form this linked timeline: C is 15 minutes before A; A is 20 minutes before H; H is 18 minutes before E; E is 5 minutes before B; B is 4 minutes before G; G is 10 minutes before D; D is 15 minutes before F. Which event is 3th chronologically? Answer one letter.",
+    "answer": "H"
+  },
+  {
+    "id": 14,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A layered graph has 3 distinct first choices, 5 distinct second choices per first choice and 3 distinct final choices per second choice. Exactly 1 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 3 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "20"
+  },
+  {
+    "id": 15,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Task completion times are [83, 51, 113, 75, 127, 31, 123, 44, 92] minutes. Exclude the shortest 6 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "123"
+  },
+  {
+    "id": 16,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A system opens iff ((213 mod 10) < 6) AND ((213 mod 4) is even OR 213 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 17,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "A register starts at 28. Apply signed updates [6, 1, 0, 5, 8, 10, 7, 2, 2, 10, -2, 1, 8, -8, -7, -5, -7] in order, but skip updates numbered 2 through 13 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "7"
+  },
+  {
+    "id": 18,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Scores: [759, 130, 696, 568, 310, 258, 740, 352, 676, 163, 792]. Remove scores below 246, then remove the highest surviving score. What is the 4th highest among survivors? Answer integer.",
+    "answer": "676"
+  },
+  {
+    "id": 19,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "The sequence is [4, 47, 19, 49, 11, 48, 33, 41, 6, 8, 44, 10]. Retain only even entries; sort them in increasing order. What is the 2th retained value? Answer integer.",
+    "answer": "6"
+  },
+  {
+    "id": 20,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 1,
+    "question": "Binary state X=0, Y=0, Z=0. Apply in order: XOR 0, OR Y, XOR 1, AND (Z OR 0), XOR 1. What is the final bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 21,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A binary signal begins at 0. Passing 10 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 0, 0, 0, 1, 0, 1, 1, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 22,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A=[2, 3, 7, 8, 9, 13, 18, 23, 25, 27, 31, 32, 34, 38]; B=[1, 4, 5, 6, 14, 18, 23, 28, 29, 30, 31, 32, 35, 37, 40]; C=[1, 3, 4, 6, 9, 11, 15, 16, 20, 27, 28, 38]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "17"
+  },
+  {
+    "id": 23,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Events form this linked timeline: G is 5 minutes before D; D is 4 minutes before A; A is 8 minutes before B; B is 10 minutes before C; C is 2 minutes before E; E is 3 minutes before F; F is 3 minutes before H. Which event is 8th chronologically? Answer one letter.",
+    "answer": "H"
+  },
+  {
+    "id": 24,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A layered graph has 3 distinct first choices, 7 distinct second choices per first choice and 3 distinct final choices per second choice. Exactly 1 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 3 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "28"
+  },
+  {
+    "id": 25,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Task completion times are [120, 32, 95, 69, 61, 107, 97, 96, 76] minutes. Exclude the shortest 5 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "107"
+  },
+  {
+    "id": 26,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A system opens iff ((107 mod 9) < 5) AND ((107 mod 7) is even OR 107 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 27,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A register starts at 19. Apply signed updates [5, -4, -3, 1, 6, 0, -1, -6, -6, -7, 4, 1] in order, but skip updates numbered 5 through 12 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "18"
+  },
+  {
+    "id": 28,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Scores: [368, 519, 793, 380, 429, 155, 598, 440, 377, 791, 517]. Remove scores below 251, then remove the highest surviving score. What is the 3th highest among survivors? Answer integer.",
+    "answer": "519"
+  },
+  {
+    "id": 29,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "The sequence is [27, 9, 49, 37, 16, 5, 21, 51, 12, 3, 45, 50]. Retain only even entries; sort them in increasing order. What is the 2th retained value? Answer integer.",
+    "answer": "16"
+  },
+  {
+    "id": 30,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Binary state X=1, Y=0, Z=0. Apply in order: XOR 1, OR Y, XOR 0, AND (Z OR 0), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 31,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A binary signal begins at 0. Passing 11 gates, each gate flips the bit iff its flag is 1. Flags: [0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 32,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A=[1, 7, 8, 12, 18, 21, 24, 25, 28, 29, 31, 32, 35, 36]; B=[5, 7, 9, 12, 14, 20, 22, 24, 26, 29, 30, 31, 35, 36, 40]; C=[2, 4, 8, 9, 11, 17, 19, 20, 22, 25, 27, 31]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "16"
+  },
+  {
+    "id": 33,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Events form this linked timeline: B is 18 minutes before A; A is 7 minutes before E; E is 6 minutes before F; F is 2 minutes before D; D is 6 minutes before C; C is 13 minutes before G; G is 9 minutes before H. Which event is 5th chronologically? Answer one letter.",
+    "answer": "D"
+  },
+  {
+    "id": 34,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A layered graph has 7 distinct first choices, 5 distinct second choices per first choice and 6 distinct final choices per second choice. Exactly 6 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 6 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "25"
+  },
+  {
+    "id": 35,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Task completion times are [62, 47, 106, 93, 99, 88, 117, 91, 128] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "117"
+  },
+  {
+    "id": 36,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A system opens iff ((73 mod 6) < 4) AND ((73 mod 4) is even OR 73 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 37,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "A register starts at 17. Apply signed updates [1, 6, 9, 2, 0, 4, -2, 1, 0, 6, 10, -6, 6, 1] in order, but skip updates numbered 4 through 13 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "34"
+  },
+  {
+    "id": 38,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Scores: [355, 708, 897, 450, 754, 844, 848, 502, 839, 131, 241]. Remove scores below 339, then remove the highest surviving score. What is the 3th highest among survivors? Answer integer.",
+    "answer": "839"
+  },
+  {
+    "id": 39,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "The sequence is [27, 18, 19, 49, 21, 36, 47, 44, 48, 5, 43, 24]. Retain only even entries; sort them in increasing order. What is the 2th retained value? Answer integer.",
+    "answer": "24"
+  },
+  {
+    "id": 40,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 2,
+    "question": "Binary state X=1, Y=0, Z=0. Apply in order: XOR 1, OR Y, XOR 0, AND (Z OR 1), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 41,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A binary signal begins at 1. Passing 12 gates, each gate flips the bit iff its flag is 1. Flags: [1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 42,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A=[1, 5, 9, 10, 11, 17, 18, 26, 27, 33, 36, 37, 38, 39]; B=[2, 3, 10, 11, 15, 19, 24, 25, 27, 31, 32, 33, 37, 38, 39]; C=[3, 9, 11, 12, 13, 14, 16, 18, 29, 34, 37, 38]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "4"
+  },
+  {
+    "id": 43,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Events form this linked timeline: A is 6 minutes before F; F is 13 minutes before H; H is 12 minutes before D; D is 14 minutes before G; G is 11 minutes before E; E is 17 minutes before C; C is 18 minutes before B. Which event is 3th chronologically? Answer one letter.",
+    "answer": "H"
+  },
+  {
+    "id": 44,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A layered graph has 4 distinct first choices, 6 distinct second choices per first choice and 7 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 7 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "72"
+  },
+  {
+    "id": 45,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Task completion times are [124, 74, 114, 119, 107, 113, 44, 27, 93] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "119"
+  },
+  {
+    "id": 46,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A system opens iff ((165 mod 4) < 2) AND ((165 mod 4) is even OR 165 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 47,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A register starts at 18. Apply signed updates [8, 10, 1, -5, -8, -5, -2, 0, -7, -1, 0, 6, 5] in order, but skip updates numbered 3 through 9 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "46"
+  },
+  {
+    "id": 48,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Scores: [309, 453, 398, 233, 316, 576, 701, 772, 758, 806, 786]. Remove scores below 290, then remove the highest surviving score. What is the 4th highest among survivors? Answer integer.",
+    "answer": "701"
+  },
+  {
+    "id": 49,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "The sequence is [6, 20, 47, 30, 50, 38, 31, 36, 32, 29, 49, 26]. Retain only even entries; sort them in increasing order. What is the 2th retained value? Answer integer.",
+    "answer": "20"
+  },
+  {
+    "id": 50,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Binary state X=1, Y=0, Z=1. Apply in order: XOR 0, OR Y, XOR 0, AND (Z OR 0), XOR 0. What is the final bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 51,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A binary signal begins at 1. Passing 11 gates, each gate flips the bit iff its flag is 1. Flags: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 52,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A=[7, 8, 11, 12, 14, 15, 17, 19, 20, 23, 25, 26, 27, 33]; B=[2, 4, 6, 13, 15, 17, 18, 21, 24, 31, 32, 34, 35, 36, 39]; C=[1, 4, 7, 9, 10, 16, 22, 25, 30, 33, 37, 38]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "23"
+  },
+  {
+    "id": 53,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Events form this linked timeline: C is 4 minutes before F; F is 17 minutes before G; G is 6 minutes before E; E is 4 minutes before A; A is 13 minutes before D; D is 11 minutes before H; H is 10 minutes before B. Which event is 2th chronologically? Answer one letter.",
+    "answer": "F"
+  },
+  {
+    "id": 54,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A layered graph has 5 distinct first choices, 4 distinct second choices per first choice and 4 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 4 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "36"
+  },
+  {
+    "id": 55,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Task completion times are [27, 89, 21, 123, 37, 54, 126, 121, 114] minutes. Exclude the shortest 5 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "123"
+  },
+  {
+    "id": 56,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A system opens iff ((115 mod 9) < 6) AND ((115 mod 7) is even OR 115 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 57,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "A register starts at 34. Apply signed updates [1, 7, -1, 10, 7, -1, 5, 1, -6, 4, 4, 2] in order, but skip updates numbered 4 through 11 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "43"
+  },
+  {
+    "id": 58,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Scores: [437, 225, 369, 300, 872, 867, 296, 830, 721, 297, 484]. Remove scores below 251, then remove the highest surviving score. What is the 2th highest among survivors? Answer integer.",
+    "answer": "830"
+  },
+  {
+    "id": 59,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "The sequence is [20, 2, 14, 36, 53, 34, 10, 6, 38, 21, 33, 24]. Retain only even entries; sort them in increasing order. What is the 1th retained value? Answer integer.",
+    "answer": "2"
+  },
+  {
+    "id": 60,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 3,
+    "question": "Binary state X=0, Y=0, Z=0. Apply in order: XOR 1, OR Y, XOR 0, AND (Z OR 1), XOR 1. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 61,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A binary signal begins at 1. Passing 11 gates, each gate flips the bit iff its flag is 1. Flags: [0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 62,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A=[1, 3, 6, 9, 10, 14, 16, 17, 19, 20, 24, 25, 34, 40]; B=[4, 11, 13, 16, 18, 19, 21, 22, 24, 25, 28, 33, 35, 36, 40]; C=[6, 7, 9, 10, 13, 17, 30, 33, 36, 37, 38, 40]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "16"
+  },
+  {
+    "id": 63,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Events form this linked timeline: B is 17 minutes before A; A is 10 minutes before G; G is 13 minutes before F; F is 3 minutes before H; H is 3 minutes before D; D is 20 minutes before E; E is 3 minutes before C. Which event is 4th chronologically? Answer one letter.",
+    "answer": "F"
+  },
+  {
+    "id": 64,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A layered graph has 3 distinct first choices, 3 distinct second choices per first choice and 4 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 4 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "9"
+  },
+  {
+    "id": 65,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Task completion times are [16, 43, 102, 51, 57, 121, 60, 124, 27] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "121"
+  },
+  {
+    "id": 66,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A system opens iff ((62 mod 8) < 3) AND ((62 mod 6) is even OR 62 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 67,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A register starts at 33. Apply signed updates [-2, -6, -4, -7, 5, -4, 3, 5, -7, 10, 0, 5, 8, -7, 10] in order, but skip updates numbered 5 through 12 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "25"
+  },
+  {
+    "id": 68,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Scores: [869, 204, 541, 480, 533, 358, 264, 719, 219, 302, 512]. Remove scores below 326, then remove the highest surviving score. What is the 3th highest among survivors? Answer integer.",
+    "answer": "533"
+  },
+  {
+    "id": 69,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "The sequence is [20, 12, 44, 5, 37, 48, 52, 1, 36, 15, 40, 46]. Retain only even entries; sort them in increasing order. What is the 3th retained value? Answer integer.",
+    "answer": "36"
+  },
+  {
+    "id": 70,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Binary state X=1, Y=1, Z=0. Apply in order: XOR 1, OR Y, XOR 0, AND (Z OR 1), XOR 1. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 71,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A binary signal begins at 1. Passing 9 gates, each gate flips the bit iff its flag is 1. Flags: [0, 0, 1, 1, 0, 1, 1, 0, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 72,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A=[2, 5, 6, 7, 9, 10, 16, 17, 19, 23, 29, 33, 34, 39]; B=[4, 5, 7, 9, 16, 21, 22, 24, 25, 28, 31, 34, 35, 37, 38]; C=[8, 10, 15, 21, 22, 23, 29, 30, 32, 37, 38, 39]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "5"
+  },
+  {
+    "id": 73,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Events form this linked timeline: B is 11 minutes before A; A is 5 minutes before G; G is 3 minutes before D; D is 4 minutes before E; E is 17 minutes before F; F is 2 minutes before H; H is 4 minutes before C. Which event is 6th chronologically? Answer one letter.",
+    "answer": "F"
+  },
+  {
+    "id": 74,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A layered graph has 5 distinct first choices, 3 distinct second choices per first choice and 7 distinct final choices per second choice. Exactly 4 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 7 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "18"
+  },
+  {
+    "id": 75,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Task completion times are [41, 20, 28, 38, 33, 81, 129, 64, 106] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "106"
+  },
+  {
+    "id": 76,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A system opens iff ((62 mod 5) < 3) AND ((62 mod 3) is even OR 62 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 77,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "A register starts at 25. Apply signed updates [6, -5, -4, -5, -6, 4, -8, -4, 4, -4, -5, 5, 10, -1, 10, -2, 5, -3, 4, -2] in order, but skip updates numbered 4 through 9 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "39"
+  },
+  {
+    "id": 78,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Scores: [588, 159, 376, 631, 708, 782, 515, 674, 156, 898, 251]. Remove scores below 335, then remove the highest surviving score. What is the 1th highest among survivors? Answer integer.",
+    "answer": "782"
+  },
+  {
+    "id": 79,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "The sequence is [11, 12, 54, 23, 26, 29, 25, 21, 28, 30, 31, 3]. Retain only even entries; sort them in increasing order. What is the 4th retained value? Answer integer.",
+    "answer": "30"
+  },
+  {
+    "id": 80,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 4,
+    "question": "Binary state X=1, Y=0, Z=0. Apply in order: XOR 0, OR Y, XOR 0, AND (Z OR 0), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 81,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A binary signal begins at 1. Passing 11 gates, each gate flips the bit iff its flag is 1. Flags: [0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 82,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A=[2, 4, 5, 12, 15, 23, 26, 29, 30, 32, 34, 36, 39, 40]; B=[3, 13, 14, 15, 21, 22, 23, 25, 26, 27, 30, 31, 33, 35, 37]; C=[1, 15, 16, 17, 21, 27, 30, 31, 37, 38, 39, 40]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "2"
+  },
+  {
+    "id": 83,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Events form this linked timeline: H is 12 minutes before F; F is 14 minutes before D; D is 12 minutes before G; G is 8 minutes before C; C is 6 minutes before A; A is 20 minutes before B; B is 13 minutes before E. Which event is 4th chronologically? Answer one letter.",
+    "answer": "G"
+  },
+  {
+    "id": 84,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A layered graph has 3 distinct first choices, 4 distinct second choices per first choice and 4 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 4 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "12"
+  },
+  {
+    "id": 85,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Task completion times are [72, 69, 77, 95, 68, 24, 116, 79, 55] minutes. Exclude the shortest 6 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "95"
+  },
+  {
+    "id": 86,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A system opens iff ((63 mod 7) < 5) AND ((63 mod 5) is even OR 63 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 87,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A register starts at 15. Apply signed updates [9, -2, 2, -7, 3, 6, -7, 4, 9, 2, -1] in order, but skip updates numbered 5 through 9 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "18"
+  },
+  {
+    "id": 88,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Scores: [471, 529, 899, 342, 222, 326, 680, 560, 706, 525, 494]. Remove scores below 305, then remove the highest surviving score. What is the 1th highest among survivors? Answer integer.",
+    "answer": "706"
+  },
+  {
+    "id": 89,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "The sequence is [39, 51, 17, 30, 10, 6, 45, 2, 25, 18, 5, 26]. Retain only even entries; sort them in increasing order. What is the 4th retained value? Answer integer.",
+    "answer": "18"
+  },
+  {
+    "id": 90,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Binary state X=1, Y=1, Z=0. Apply in order: XOR 1, OR Y, XOR 1, AND (Z OR 0), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 91,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A binary signal begins at 1. Passing 10 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 1, 0, 0, 1, 0, 1, 0, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 92,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A=[3, 8, 9, 14, 19, 24, 25, 26, 27, 29, 31, 33, 38, 39]; B=[1, 3, 5, 10, 13, 15, 19, 20, 21, 22, 24, 33, 35, 39, 40]; C=[3, 6, 7, 9, 15, 19, 23, 24, 25, 30, 34, 35]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "2"
+  },
+  {
+    "id": 93,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Events form this linked timeline: A is 16 minutes before G; G is 18 minutes before B; B is 5 minutes before C; C is 17 minutes before E; E is 16 minutes before D; D is 7 minutes before H; H is 11 minutes before F. Which event is 2th chronologically? Answer one letter.",
+    "answer": "G"
+  },
+  {
+    "id": 94,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A layered graph has 7 distinct first choices, 7 distinct second choices per first choice and 6 distinct final choices per second choice. Exactly 4 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 6 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "105"
+  },
+  {
+    "id": 95,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Task completion times are [34, 100, 69, 74, 25, 20, 127, 49, 35] minutes. Exclude the shortest 5 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "100"
+  },
+  {
+    "id": 96,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A system opens iff ((207 mod 9) < 3) AND ((207 mod 8) is even OR 207 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 97,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "A register starts at 33. Apply signed updates [-5, 7, 8, 8, 5, -2, 1, -1, -1, -8, -5, 8, 1, 4, 8, -2, 0] in order, but skip updates numbered 3 through 15 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "33"
+  },
+  {
+    "id": 98,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Scores: [317, 120, 335, 117, 123, 607, 226, 740, 710, 170, 141]. Remove scores below 307, then remove the highest surviving score. What is the 3th highest among survivors? Answer integer.",
+    "answer": "335"
+  },
+  {
+    "id": 99,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "The sequence is [3, 38, 39, 54, 45, 21, 47, 52, 6, 2, 27, 15]. Retain only even entries; sort them in increasing order. What is the 4th retained value? Answer integer.",
+    "answer": "52"
+  },
+  {
+    "id": 100,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 5,
+    "question": "Binary state X=1, Y=1, Z=0. Apply in order: XOR 1, OR Y, XOR 1, AND (Z OR 1), XOR 1. What is the final bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 101,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A binary signal begins at 0. Passing 10 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 1, 0, 0, 1, 1, 0, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 102,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A=[4, 7, 12, 13, 16, 20, 22, 24, 26, 29, 34, 35, 39, 40]; B=[1, 2, 3, 6, 7, 11, 14, 15, 23, 24, 28, 29, 33, 36, 38]; C=[3, 4, 9, 18, 19, 23, 28, 29, 36, 37, 39, 40]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "18"
+  },
+  {
+    "id": 103,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Events form this linked timeline: H is 13 minutes before B; B is 5 minutes before A; A is 3 minutes before F; F is 14 minutes before G; G is 11 minutes before C; C is 10 minutes before D; D is 13 minutes before E. Which event is 4th chronologically? Answer one letter.",
+    "answer": "F"
+  },
+  {
+    "id": 104,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A layered graph has 7 distinct first choices, 3 distinct second choices per first choice and 7 distinct final choices per second choice. Exactly 3 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 7 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "72"
+  },
+  {
+    "id": 105,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Task completion times are [72, 117, 64, 112, 70, 104, 40, 66, 101] minutes. Exclude the shortest 4 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "112"
+  },
+  {
+    "id": 106,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A system opens iff ((193 mod 6) < 6) AND ((193 mod 4) is even OR 193 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 107,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A register starts at 33. Apply signed updates [3, -7, 5, -7, -8, -3, 7, 4, 1, 4, -5, 5] in order, but skip updates numbered 4 through 12 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "34"
+  },
+  {
+    "id": 108,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Scores: [834, 687, 365, 411, 327, 678, 274, 523, 555, 334, 386]. Remove scores below 360, then remove the highest surviving score. What is the 4th highest among survivors? Answer integer.",
+    "answer": "523"
+  },
+  {
+    "id": 109,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "The sequence is [13, 50, 9, 18, 3, 47, 6, 14, 17, 43, 4, 37]. Retain only even entries; sort them in increasing order. What is the 1th retained value? Answer integer.",
+    "answer": "4"
+  },
+  {
+    "id": 110,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Binary state X=0, Y=0, Z=0. Apply in order: XOR 0, OR Y, XOR 1, AND (Z OR 1), XOR 0. What is the final bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 111,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A binary signal begins at 1. Passing 14 gates, each gate flips the bit iff its flag is 1. Flags: [1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 112,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A=[1, 3, 14, 16, 17, 18, 20, 23, 25, 28, 31, 32, 35, 37]; B=[5, 7, 8, 9, 10, 12, 19, 20, 21, 25, 27, 31, 33, 34, 36]; C=[6, 7, 8, 16, 20, 22, 24, 25, 26, 28, 31, 34]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 113,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Events form this linked timeline: A is 19 minutes before H; H is 13 minutes before G; G is 9 minutes before F; F is 12 minutes before C; C is 18 minutes before E; E is 7 minutes before B; B is 8 minutes before D. Which event is 4th chronologically? Answer one letter.",
+    "answer": "F"
+  },
+  {
+    "id": 114,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A layered graph has 4 distinct first choices, 3 distinct second choices per first choice and 4 distinct final choices per second choice. Exactly 1 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 4 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "27"
+  },
+  {
+    "id": 115,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Task completion times are [84, 70, 63, 25, 22, 27, 19, 41, 59] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "70"
+  },
+  {
+    "id": 116,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A system opens iff ((91 mod 10) < 6) AND ((91 mod 3) is even OR 91 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 117,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "A register starts at 30. Apply signed updates [4, 4, -6, 2, 1, -1, 8, 1, 1, 6, -8, -2, 1, 9, -6, 6] in order, but skip updates numbered 5 through 15 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "40"
+  },
+  {
+    "id": 118,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Scores: [423, 428, 130, 193, 813, 863, 333, 880, 170, 153, 808]. Remove scores below 356, then remove the highest surviving score. What is the 4th highest among survivors? Answer integer.",
+    "answer": "428"
+  },
+  {
+    "id": 119,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "The sequence is [20, 39, 47, 24, 49, 11, 38, 3, 1, 26, 36, 21]. Retain only even entries; sort them in increasing order. What is the 4th retained value? Answer integer.",
+    "answer": "36"
+  },
+  {
+    "id": 120,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 6,
+    "question": "Binary state X=1, Y=0, Z=0. Apply in order: XOR 0, OR Y, XOR 1, AND (Z OR 0), XOR 1. What is the final bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 121,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A binary signal begins at 1. Passing 10 gates, each gate flips the bit iff its flag is 1. Flags: [1, 1, 1, 1, 0, 1, 1, 1, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 122,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A=[2, 5, 7, 9, 16, 17, 18, 23, 25, 27, 28, 31, 34, 39]; B=[3, 6, 8, 9, 12, 15, 16, 18, 19, 25, 26, 31, 33, 34, 35]; C=[2, 7, 8, 11, 13, 17, 20, 23, 26, 32, 35, 37]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "6"
+  },
+  {
+    "id": 123,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Events form this linked timeline: C is 16 minutes before A; A is 9 minutes before H; H is 13 minutes before E; E is 7 minutes before D; D is 7 minutes before B; B is 4 minutes before G; G is 20 minutes before F. Which event is 4th chronologically? Answer one letter.",
+    "answer": "E"
+  },
+  {
+    "id": 124,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A layered graph has 5 distinct first choices, 4 distinct second choices per first choice and 7 distinct final choices per second choice. Exactly 3 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 7 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "48"
+  },
+  {
+    "id": 125,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Task completion times are [48, 37, 35, 30, 44, 113, 90, 40, 58] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "90"
+  },
+  {
+    "id": 126,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A system opens iff ((146 mod 8) < 4) AND ((146 mod 6) is even OR 146 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 127,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A register starts at 24. Apply signed updates [0, -7, 1, 0, 4, 6, 5, -3, -5, 6, -4, -7, 0, 7, 6, 9, 2, 6] in order, but skip updates numbered 5 through 17 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "24"
+  },
+  {
+    "id": 128,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Scores: [863, 445, 628, 480, 254, 138, 792, 465, 393, 134, 880]. Remove scores below 346, then remove the highest surviving score. What is the 4th highest among survivors? Answer integer.",
+    "answer": "480"
+  },
+  {
+    "id": 129,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "The sequence is [31, 4, 27, 17, 24, 15, 34, 9, 43, 49, 37, 28]. Retain only even entries; sort them in increasing order. What is the 1th retained value? Answer integer.",
+    "answer": "4"
+  },
+  {
+    "id": 130,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Binary state X=1, Y=1, Z=1. Apply in order: XOR 1, OR Y, XOR 0, AND (Z OR 1), XOR 0. What is the final bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 131,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A binary signal begins at 0. Passing 9 gates, each gate flips the bit iff its flag is 1. Flags: [0, 0, 1, 0, 0, 1, 1, 0, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 132,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A=[2, 8, 10, 14, 16, 17, 19, 20, 29, 30, 31, 32, 36, 37]; B=[1, 2, 4, 5, 7, 8, 10, 12, 15, 16, 19, 21, 27, 28, 31]; C=[4, 8, 9, 10, 15, 16, 20, 21, 26, 31, 39, 40]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "2"
+  },
+  {
+    "id": 133,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Events form this linked timeline: F is 18 minutes before H; H is 20 minutes before G; G is 12 minutes before D; D is 13 minutes before A; A is 2 minutes before C; C is 7 minutes before B; B is 16 minutes before E. Which event is 8th chronologically? Answer one letter.",
+    "answer": "E"
+  },
+  {
+    "id": 134,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A layered graph has 7 distinct first choices, 4 distinct second choices per first choice and 6 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 6 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "100"
+  },
+  {
+    "id": 135,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Task completion times are [80, 49, 121, 64, 119, 77, 70, 51, 126] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "121"
+  },
+  {
+    "id": 136,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A system opens iff ((109 mod 12) < 3) AND ((109 mod 7) is even OR 109 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 137,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "A register starts at 40. Apply signed updates [3, 9, -3, -7, -4, 2, 8, 8, 5, 3, -2, 10, -7, -5] in order, but skip updates numbered 5 through 14 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "42"
+  },
+  {
+    "id": 138,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Scores: [474, 629, 236, 853, 517, 217, 778, 589, 479, 253, 583]. Remove scores below 296, then remove the highest surviving score. What is the 2th highest among survivors? Answer integer.",
+    "answer": "629"
+  },
+  {
+    "id": 139,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "The sequence is [15, 52, 16, 47, 29, 7, 17, 54, 37, 22, 35, 41]. Retain only even entries; sort them in increasing order. What is the 3th retained value? Answer integer.",
+    "answer": "52"
+  },
+  {
+    "id": 140,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 7,
+    "question": "Binary state X=1, Y=0, Z=1. Apply in order: XOR 0, OR Y, XOR 0, AND (Z OR 1), XOR 1. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 141,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A binary signal begins at 0. Passing 12 gates, each gate flips the bit iff its flag is 1. Flags: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 142,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A=[1, 3, 4, 7, 15, 16, 17, 20, 21, 29, 30, 33, 36, 38]; B=[1, 6, 7, 9, 18, 20, 22, 23, 24, 26, 30, 35, 37, 38, 40]; C=[9, 17, 19, 20, 22, 23, 24, 26, 32, 33, 36, 40]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "14"
+  },
+  {
+    "id": 143,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Events form this linked timeline: B is 19 minutes before G; G is 2 minutes before F; F is 20 minutes before A; A is 16 minutes before H; H is 4 minutes before D; D is 9 minutes before C; C is 18 minutes before E. Which event is 4th chronologically? Answer one letter.",
+    "answer": "A"
+  },
+  {
+    "id": 144,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A layered graph has 3 distinct first choices, 7 distinct second choices per first choice and 7 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 7 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "42"
+  },
+  {
+    "id": 145,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Task completion times are [88, 51, 27, 43, 117, 84, 53, 91, 24] minutes. Exclude the shortest 6 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "91"
+  },
+  {
+    "id": 146,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A system opens iff ((66 mod 6) < 5) AND ((66 mod 8) is even OR 66 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 147,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A register starts at 37. Apply signed updates [5, 0, 1, 10, -8, 0, 9, -8, -2, -8, -3, 8, -8] in order, but skip updates numbered 4 through 11 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "43"
+  },
+  {
+    "id": 148,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Scores: [722, 337, 807, 577, 764, 270, 589, 825, 461, 496, 534]. Remove scores below 278, then remove the highest surviving score. What is the 3th highest among survivors? Answer integer.",
+    "answer": "722"
+  },
+  {
+    "id": 149,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "The sequence is [14, 53, 18, 33, 26, 34, 10, 22, 36, 13, 5, 47]. Retain only even entries; sort them in increasing order. What is the 3th retained value? Answer integer.",
+    "answer": "18"
+  },
+  {
+    "id": 150,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Binary state X=0, Y=1, Z=1. Apply in order: XOR 0, OR Y, XOR 1, AND (Z OR 1), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 151,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A binary signal begins at 1. Passing 12 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 152,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A=[1, 5, 8, 10, 16, 18, 19, 20, 26, 27, 29, 30, 32, 38]; B=[1, 4, 6, 8, 16, 21, 23, 24, 26, 32, 35, 36, 37, 38, 39]; C=[5, 6, 7, 12, 21, 24, 26, 30, 32, 35, 38, 39]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "3"
+  },
+  {
+    "id": 153,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Events form this linked timeline: G is 5 minutes before B; B is 19 minutes before E; E is 13 minutes before A; A is 5 minutes before H; H is 20 minutes before F; F is 2 minutes before C; C is 2 minutes before D. Which event is 4th chronologically? Answer one letter.",
+    "answer": "A"
+  },
+  {
+    "id": 154,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A layered graph has 7 distinct first choices, 6 distinct second choices per first choice and 5 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 5 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "120"
+  },
+  {
+    "id": 155,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Task completion times are [96, 127, 103, 30, 26, 125, 75, 52, 99] minutes. Exclude the shortest 4 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "125"
+  },
+  {
+    "id": 156,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A system opens iff ((117 mod 7) < 5) AND ((117 mod 9) is even OR 117 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 157,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "A register starts at 29. Apply signed updates [0, 8, 10, 1, 9, -7, 7, -8, 10, -7, -8] in order, but skip updates numbered 3 through 9 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "22"
+  },
+  {
+    "id": 158,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Scores: [638, 101, 112, 522, 612, 745, 144, 432, 753, 767, 287]. Remove scores below 315, then remove the highest surviving score. What is the 4th highest among survivors? Answer integer.",
+    "answer": "612"
+  },
+  {
+    "id": 159,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "The sequence is [12, 1, 37, 53, 23, 39, 24, 26, 31, 8, 7, 30]. Retain only even entries; sort them in increasing order. What is the 4th retained value? Answer integer.",
+    "answer": "26"
+  },
+  {
+    "id": 160,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 8,
+    "question": "Binary state X=0, Y=1, Z=1. Apply in order: XOR 0, OR Y, XOR 0, AND (Z OR 0), XOR 0. What is the final bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 161,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A binary signal begins at 0. Passing 9 gates, each gate flips the bit iff its flag is 1. Flags: [0, 1, 0, 0, 0, 0, 0, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 162,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A=[2, 4, 7, 8, 12, 23, 24, 25, 26, 28, 30, 31, 34, 37]; B=[5, 9, 14, 18, 19, 20, 21, 25, 27, 29, 30, 31, 33, 35, 36]; C=[2, 6, 8, 13, 14, 15, 21, 27, 33, 35, 36, 40]. Form (A intersection B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "3"
+  },
+  {
+    "id": 163,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Events form this linked timeline: B is 14 minutes before D; D is 10 minutes before C; C is 5 minutes before E; E is 9 minutes before H; H is 4 minutes before A; A is 5 minutes before G; G is 11 minutes before F. Which event is 6th chronologically? Answer one letter.",
+    "answer": "A"
+  },
+  {
+    "id": 164,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A layered graph has 7 distinct first choices, 3 distinct second choices per first choice and 4 distinct final choices per second choice. Exactly 4 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 4 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "27"
+  },
+  {
+    "id": 165,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Task completion times are [18, 21, 99, 93, 94, 125, 42, 118, 72] minutes. Exclude the shortest 5 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "118"
+  },
+  {
+    "id": 166,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A system opens iff ((106 mod 7) < 2) AND ((106 mod 6) is even OR 106 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "TRUE"
+  },
+  {
+    "id": 167,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A register starts at 21. Apply signed updates [-5, 5, 2, 4, -1, -3, 9, 1, 5, 10, -8] in order, but skip updates numbered 4 through 10 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "15"
+  },
+  {
+    "id": 168,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Scores: [795, 297, 612, 870, 127, 533, 746, 769, 885, 328, 789]. Remove scores below 353, then remove the highest surviving score. What is the 2th highest among survivors? Answer integer.",
+    "answer": "795"
+  },
+  {
+    "id": 169,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "The sequence is [54, 22, 37, 35, 41, 26, 45, 51, 9, 33, 32, 39]. Retain only even entries; sort them in increasing order. What is the 3th retained value? Answer integer.",
+    "answer": "32"
+  },
+  {
+    "id": 170,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Binary state X=1, Y=1, Z=1. Apply in order: XOR 0, OR Y, XOR 0, AND (Z OR 1), XOR 1. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 171,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A binary signal begins at 1. Passing 12 gates, each gate flips the bit iff its flag is 1. Flags: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 172,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A=[1, 7, 8, 9, 14, 15, 16, 20, 26, 27, 29, 30, 33, 39]; B=[1, 6, 8, 10, 11, 22, 25, 28, 29, 30, 31, 32, 35, 36, 38]; C=[1, 7, 10, 18, 19, 20, 22, 26, 28, 36, 37, 38]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "16"
+  },
+  {
+    "id": 173,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Events form this linked timeline: D is 2 minutes before A; A is 10 minutes before F; F is 8 minutes before C; C is 18 minutes before H; H is 20 minutes before B; B is 15 minutes before G; G is 14 minutes before E. Which event is 4th chronologically? Answer one letter.",
+    "answer": "C"
+  },
+  {
+    "id": 174,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A layered graph has 3 distinct first choices, 4 distinct second choices per first choice and 5 distinct final choices per second choice. Exactly 2 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 5 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "16"
+  },
+  {
+    "id": 175,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Task completion times are [58, 17, 100, 69, 43, 77, 107, 121, 15] minutes. Exclude the shortest 6 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "107"
+  },
+  {
+    "id": 176,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A system opens iff ((127 mod 12) < 2) AND ((127 mod 7) is even OR 127 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 177,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "A register starts at 26. Apply signed updates [-6, 8, 4, -1, -5, -3, 9, 6, 4, -4, 8, -8, 9, 3, -2, 2] in order, but skip updates numbered 3 through 10 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "40"
+  },
+  {
+    "id": 178,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Scores: [662, 203, 864, 167, 313, 199, 145, 756, 871, 868, 447]. Remove scores below 304, then remove the highest surviving score. What is the 2th highest among survivors? Answer integer.",
+    "answer": "864"
+  },
+  {
+    "id": 179,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "The sequence is [17, 7, 20, 49, 50, 19, 3, 4, 8, 27, 23, 45]. Retain only even entries; sort them in increasing order. What is the 2th retained value? Answer integer.",
+    "answer": "8"
+  },
+  {
+    "id": 180,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 9,
+    "question": "Binary state X=1, Y=1, Z=1. Apply in order: XOR 1, OR Y, XOR 1, AND (Z OR 1), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 181,
+    "family": "LOGIC_01",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A binary signal begins at 1. Passing 11 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1]. After all gates, what is the bit? Answer integer.",
+    "answer": "1"
+  },
+  {
+    "id": 182,
+    "family": "LOGIC_02",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A=[1, 3, 7, 10, 11, 14, 15, 18, 27, 29, 30, 34, 36, 40]; B=[4, 7, 12, 13, 16, 20, 23, 25, 26, 28, 29, 31, 34, 39, 40]; C=[5, 9, 15, 16, 17, 19, 20, 24, 25, 29, 38, 40]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "19"
+  },
+  {
+    "id": 183,
+    "family": "LOGIC_03",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Events form this linked timeline: G is 4 minutes before B; B is 8 minutes before A; A is 13 minutes before C; C is 8 minutes before D; D is 15 minutes before H; H is 3 minutes before F; F is 11 minutes before E. Which event is 7th chronologically? Answer one letter.",
+    "answer": "F"
+  },
+  {
+    "id": 184,
+    "family": "LOGIC_04",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A layered graph has 7 distinct first choices, 3 distinct second choices per first choice and 5 distinct final choices per second choice. Exactly 4 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 5 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "36"
+  },
+  {
+    "id": 185,
+    "family": "LOGIC_05",
+    "mechanism": "control",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Task completion times are [25, 48, 17, 51, 113, 54, 85, 65, 111] minutes. Exclude the shortest 3 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "111"
+  },
+  {
+    "id": 186,
+    "family": "LOGIC_06",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A system opens iff ((163 mod 4) < 2) AND ((163 mod 7) is even OR 163 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 187,
+    "family": "LOGIC_07",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A register starts at 17. Apply signed updates [5, 8, -5, 7, 9, 1, -6, 5, 10, 2, 6, 7, 10, 5, 10, -4] in order, but skip updates numbered 5 through 13 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "43"
+  },
+  {
+    "id": 188,
+    "family": "LOGIC_08",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Scores: [894, 848, 573, 572, 691, 864, 465, 290, 280, 799, 334]. Remove scores below 315, then remove the highest surviving score. What is the 1th highest among survivors? Answer integer.",
+    "answer": "864"
+  },
+  {
+    "id": 189,
+    "family": "LOGIC_09",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "The sequence is [43, 28, 22, 40, 15, 54, 36, 13, 20, 10, 2, 23]. Retain only even entries; sort them in increasing order. What is the 4th retained value? Answer integer.",
+    "answer": "22"
+  },
+  {
+    "id": 190,
+    "family": "LOGIC_10",
+    "mechanism": "boundary",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Binary state X=1, Y=1, Z=1. Apply in order: XOR 0, OR Y, XOR 1, AND (Z OR 1), XOR 0. What is the final bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 191,
+    "family": "LOGIC_11",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A binary signal begins at 1. Passing 10 gates, each gate flips the bit iff its flag is 1. Flags: [1, 0, 1, 1, 1, 0, 1, 1, 1, 0]. After all gates, what is the bit? Answer integer.",
+    "answer": "0"
+  },
+  {
+    "id": 192,
+    "family": "LOGIC_12",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A=[2, 7, 8, 13, 16, 21, 24, 25, 26, 28, 30, 31, 32, 33]; B=[1, 3, 4, 8, 12, 13, 14, 15, 16, 20, 21, 28, 31, 33, 36]; C=[1, 7, 11, 18, 19, 21, 30, 31, 32, 34, 35, 37]. Form (A union B) minus C. How many distinct elements remain? Answer integer.",
+    "answer": "16"
+  },
+  {
+    "id": 193,
+    "family": "LOGIC_13",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Events form this linked timeline: D is 11 minutes before G; G is 19 minutes before B; B is 13 minutes before C; C is 4 minutes before E; E is 20 minutes before A; A is 11 minutes before H; H is 17 minutes before F. Which event is 6th chronologically? Answer one letter.",
+    "answer": "A"
+  },
+  {
+    "id": 194,
+    "family": "LOGIC_14",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A layered graph has 4 distinct first choices, 5 distinct second choices per first choice and 5 distinct final choices per second choice. Exactly 1 first-choice branches are entirely prohibited. Each remaining second-choice node loses precisely one of its 5 outgoing choices. Count valid paths. Answer integer.",
+    "answer": "60"
+  },
+  {
+    "id": 195,
+    "family": "LOGIC_15",
+    "mechanism": "transition",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Task completion times are [28, 41, 99, 40, 103, 76, 83, 105, 65] minutes. Exclude the shortest 6 tasks, then exclude the single longest of the remaining tasks. What is the longest remaining time? Answer integer.",
+    "answer": "103"
+  },
+  {
+    "id": 196,
+    "family": "LOGIC_16",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A system opens iff ((47 mod 7) < 2) AND ((47 mod 3) is even OR 47 > 150). Is it open? Answer TRUE or FALSE.",
+    "answer": "FALSE"
+  },
+  {
+    "id": 197,
+    "family": "LOGIC_17",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "A register starts at 35. Apply signed updates [0, 2, -2, 1, 10, -5, -4, 6, -6, 4, -2, -4, 4, 1, 2, -8] in order, but skip updates numbered 4 through 8 inclusive (1-indexed). What is the final value? Answer integer.",
+    "answer": "26"
+  },
+  {
+    "id": 198,
+    "family": "LOGIC_18",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Scores: [154, 437, 133, 315, 227, 438, 787, 429, 815, 868, 778]. Remove scores below 275, then remove the highest surviving score. What is the 4th highest among survivors? Answer integer.",
+    "answer": "438"
+  },
+  {
+    "id": 199,
+    "family": "LOGIC_19",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "The sequence is [10, 6, 7, 36, 12, 22, 33, 16, 31, 37, 49, 14]. Retain only even entries; sort them in increasing order. What is the 1th retained value? Answer integer.",
+    "answer": "6"
+  },
+  {
+    "id": 200,
+    "family": "LOGIC_20",
+    "mechanism": "recovery",
+    "difficulty": "designed_multi_step",
+    "variant": 10,
+    "question": "Binary state X=0, Y=0, Z=1. Apply in order: XOR 1, OR Y, XOR 1, AND (Z OR 1), XOR 1. What is the final bit? Answer integer.",
+    "answer": "1"
+  }
+]
