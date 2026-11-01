@@ -204,10 +204,3 @@ Open `qwen3b_v14_report_s200.html` locally in a browser, or inspect the raw JSON
 
 These sources provide background; they should not be interpreted as independent validation of Thermo Pulse. See the accompanying research manuscript for the broader discussion and methodology.
 
-## Citation, license, and release notes
-
-**Citation:** A preprint DOI or repository citation has not been supplied. Please add the final bibliographic entry and a `CITATION.cff` file after publication; do not cite a placeholder DOI.
-
-**License:** No license file was included in the supplied archive. Until the repository owner selects and adds a license, public availability on GitHub should **not** be interpreted as granting reuse or redistribution rights.
-
-**Suggested Git hygiene:** Exclude `.venv_benchz_gpu/`, `__pycache__/`, downloaded model caches, private credentials, and local machine settings from version control. Preserve the recorded result artifacts if the intention is to publish a reproducibility package.
